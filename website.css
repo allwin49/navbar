@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -32,14 +34,11 @@ nav h2 {
     gap: 30px;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-}
 
 .nav-links a:hover {
     color: orange;
 }
+
 
 
 
@@ -137,13 +136,12 @@ button:hover {
     margin-bottom: 40px;
 }
 
-.menu-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
 
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
 
 
 .menu-card {
@@ -188,6 +186,13 @@ button:hover {
     padding: 80px 60px;
 }
 
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 .contact > h2 {
     text-align: center;
     font-size: 35px;
@@ -204,10 +209,7 @@ button:hover {
     width: 40%;
 }
 
-.contact-info h3 {
-    font-size: 25px;
-    margin-bottom: 20px;
-}
+
 
 .contact-info p {
     margin-bottom: 15px;
@@ -236,6 +238,12 @@ textarea {
 
 
 
+.contact-info h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
 footer {
     background-color: #222;
     color: white;
@@ -247,10 +255,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-content p {
-    color: #ccc;
-    margin-bottom: 20px;
-}
+
 
 .social-links {
     display: flex;
@@ -266,6 +271,12 @@ footer {
 
 .social-links a:hover {
     color: orange;
+
+}
+
+.footer-content p {
+    color: #ccc;
+    margin-bottom: 20px;
 }
 
 .copyright {
